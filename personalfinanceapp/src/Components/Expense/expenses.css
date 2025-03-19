@@ -1,0 +1,143 @@
+.expense-page {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 68, 98);
+  
+}
+.all{
+  height: 1000px;
+  background-color: rgb(34, 68, 98);
+}
+
+.expense-container {
+  background-color: rgb(36, 83, 124);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin-top: 40px;
+    text-align: center;
+   
+   
+}
+
+.expense-title {
+  font-size: 35px;
+  /* font-weight: bold; */
+  margin-bottom: 20px;
+  font-family:fantasy;
+  color: #000000;
+}
+
+.expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.expense-table th,
+.expense-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.expense-table th {
+    background-color: #000000;
+    color: white;
+}
+
+.no-expenses {
+    font-size: 18px;
+    color: #888;
+    margin-top: 20px;
+}
+.total-expense-row {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  .expense-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  
+  .expense-form button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-expense-btn {
+    margin: 10px 0;
+    padding: 8px 12px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .expense-form {
+    display: flex;
+    background-color: rgb(36, 83, 124);
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 20px auto; /* Centers the form */
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  
+.month-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.month-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.styled-select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.styled-select:hover {
+  background-color: #444;
+}
+
+.styled-select:focus {
+  outline: none;
+  border-color: #ffcc00;
+  box-shadow: 0 0 5px rgba(255, 204, 0, 0.7);
+}
+
+.dropandbtn{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  margin-left: 80px;
+}
